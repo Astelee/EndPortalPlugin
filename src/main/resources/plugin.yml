@@ -1,0 +1,23 @@
+# Nome que aparece no servidor
+name: EndPortalPlugin
+
+# Versão do plugin
+version: 1.0.0
+
+# Versão mínima da API do Paper/Spigot
+api-version: "1.21"
+
+# Descrição do plugin
+description: Permite coletar e recolocar blocos do Portal do End com Silk Touch
+
+# Autor
+author: NewsCraft
+
+# Classe principal (deve bater EXATAMENTE com o caminho do arquivo Java)
+main: com.newscraft.endportal.EndPortalPlugin
+
+# Permissões do plugin
+permissions:
+  newscraft.endportal:
+    description: Permite coletar e recolocar blocos do Portal do End
+    default: op
